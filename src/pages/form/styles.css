@@ -1,0 +1,9 @@
+.form-container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(rgba(249, 250, 251, 0.9), rgba(249, 250, 251, 0.9)) center center/cover no-repeat,
+    url("../../assets/images/bg-overlay.jpg");
+}

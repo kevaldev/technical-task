@@ -1,0 +1,131 @@
+{
+    "result": [
+        {
+            "display_order": 1,
+            "block_id": 1,
+            "block": "Basic info",
+            "field": [
+                {
+                    "id": 41,
+                    "field_name": "Full name",
+                    "field_slug": "full_name",
+                    "data_type": "text",
+                    "enum_values": {},
+                    "required": true,
+                    "defaultvalue": "Enter your name",
+                    "unique": false,
+                    "is_delete": true,
+                    "is_editable": true,
+                    "display_order": 7,
+                    "display": true
+                },
+                {
+                    "id": 42,
+                    "field_name": "Email address",
+                    "field_slug": "email_address",
+                    "data_type": "email",
+                    "enum_values": {},
+                    "required": true,
+                    "defaultvalue": "Enter your mail",
+                    "unique": true,
+                    "is_delete": true,
+                    "is_editable": true,
+                    "display_order": 8,
+                    "display": true
+                },
+                {
+                    "id": 43,
+                    "field_name": "Mobile",
+                    "field_slug": "mobile",
+                    "data_type": "phone",
+                    "enum_values": {},
+                    "required": true,
+                    "defaultvalue": "Enter your contact number",
+                    "unique": false,
+                    "is_delete": true,
+                    "is_editable": true,
+                    "display_order": 9,
+                    "display": true
+                },
+                {
+                    "id": 44,
+                    "field_name": "Date of birth",
+                    "field_slug": "date_of_birth",
+                    "data_type": "date",
+                    "enum_values": {},
+                    "required": true,
+                    "defaultvalue": "",
+                    "unique": false,
+                    "is_delete": true,
+                    "is_editable": true,
+                    "display_order": 10,
+                    "display": true
+                },
+                {
+                    "id": 45,
+                    "field_name": "Gender",
+                    "field_slug": "gender",
+                    "data_type": "select",
+                    "enum_values": {
+                        "choices": [
+                            {
+                                "id": 7,
+                                "value": "Male"
+                            },
+                            {
+                                "id": 8,
+                                "value": "Female"
+                            },
+                            {
+                                "id": 9,
+                                "value": "other"
+                            }
+                        ]
+                    },
+                    "required": true,
+                    "defaultvalue": "",
+                    "unique": false,
+                    "is_delete": true,
+                    "is_editable": true,
+                    "display_order": 11,
+                    "display": true
+                },
+                {
+                    "id": 46,
+                    "field_name": "Are you a developer",
+                    "field_slug": "are_you_a_developer",
+                    "data_type": "checkbox",
+                    "enum_values": {},
+                    "required": false,
+                    "defaultvalue": "false",
+                    "unique": false,
+                    "is_delete": true,
+                    "is_editable": true,
+                    "display_order": 12,
+                    "display": true
+                }
+            ]
+        },
+        {
+            "display_order": 2,
+            "block_id": 2,
+            "block": "Additional Info",
+            "field": [
+                {
+                    "id": 30,
+                    "field_name": "Lucky Number",
+                    "field_slug": "lucky_number",
+                    "data_type": "number",
+                    "enum_values": {},
+                    "required": true,
+                    "defaultvalue": "Enter your number",
+                    "unique": false,
+                    "is_delete": true,
+                    "is_editable": true,
+                    "display_order": 8,
+                    "display": true
+                }
+            ]
+        }
+    ]
+}
